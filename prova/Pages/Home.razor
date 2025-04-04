@@ -1,0 +1,55 @@
+﻿@page "/"
+@using prova.Models
+@using prova.Services
+@inject IUserService userService
+
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="visual.css">
+  <title>Meu curriculo</title>
+</head>
+
+<PageTitle>Informações do João</PageTitle>
+
+<div style="color: rgb(70, 5-, 183); display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh;">
+
+<div class="container-conteudo" bg>
+        <ul>
+          <li>
+            <h2 style="color: rgb(255, 0, 220)">Currículo João Pedro</h2>
+            <p>Sou nascido e criado na zona oeste do Rio de Janeiro e sempre acreditei que a educação pode mudar o futuro. Com essa mentalidade, foquei no meu desenvolvimento e nas oportunidades que me surgiram, sendo uma dessas oportunidades foi o Instituto ISMART, que me permitiu estudar no Colégio de São Bento, que está entre as 10 melhores colégios do Rio de Janeiro. Esta jornada me levou ao ensino superior, onde curso Sistemas de Informação no Inteli, universidade fundada pelo CEO do banco BTG e pelo empresário André Esteves que visa formar os futuros líderes de tecnologia do Brasil e do mundo.</p>
+          </li>
+          <li class="meu-titulo-conteudo">
+            <h2>Histórico Profissional</h2>
+            <p> SBK como desenvolvedor na equipe de inovação.03/2025 - 12/2026</p>
+          </li>
+        </ul>
+      </div>
+      <div class="container-contato">
+        <ul>
+          <li>
+            <h2>Competências</h2>
+            <p>Dedicado</p>
+            <p>Atencioso</p>
+            <p>Auto Critico</p>
+            <p>Evolução constante</p>
+          </li>
+          <li>
+            <h2>Contato</h2>
+              <div class="hover">
+                  <p id="texto-inside1"><a href="https://www.linkedin.com/in/joao-pedro-brandao/" target="_blank">Linkedin</a> </p>
+              </div>
+              <div class="hover2">
+                  <p id="texto-inside2"><a href="https://github.com/joaopedrobrandao" target="_blank">Github</a></p>
+              </div>
+          </li>
+        </ul>
+      </div>
+</div>
+
